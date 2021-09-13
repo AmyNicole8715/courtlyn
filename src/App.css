@@ -36,3 +36,110 @@
     transform: rotate(360deg);
   }
 }
+
+.messenger {
+
+}
+
+.navigator{
+
+}
+
+.topBar {
+  color:#300E2F;
+}
+
+.userBar {
+  width: 441px;
+  height: 850px;
+  background-color: #300E2F;
+  border-right: 1px solid rgb(245, 138, 255);
+  position: static;
+  justify-content: flex-start;
+}
+
+.adBar {
+  width: 441px;
+  height: 850px;
+  background-color: #300E2F;
+  border-left: 1px solid rgb(245, 138, 255);
+}
+
+.main {
+  height: 850px;
+  width: 1920px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.body {
+  height: 850px;
+  width: 1038px;
+  background-color: #300E2F;
+}
+
+#TopBar {
+  position: static;
+  width: 1920px;
+  height: 100px;
+  background-color: #300E2F;
+  border-bottom: 1px solid rgb(245, 138, 255);
+  flex-direction: row;
+}
+#SearchButton {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 1px solid rgb(245, 138, 255);
+  border-radius: 45px;
+  text-shadow: 0px 0px 0px transparent;
+  
+  
+}
+#NSB {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 576px;
+  height: 50px;
+  margin-left: 570px;
+  border: 1px solid rgb(245, 138, 255);
+  border-radius: 30px;
+  flex-direction: row;
+  display: inline-flex;
+  transform: translate(-50%, -50%);
+}
+
+#tlmLogo {
+  position: relative;
+  height: 176px;
+  width: 176px;
+  margin-top: -25px;
+
+}
+
+#Footer {
+  position: static;
+  width: 1920px;
+  height: 100px;
+  background-color: #300E2F;
+  border-top: 1px solid rgb(245, 138, 255);
+  flex-direction: row;
+}
+
+#SearchBox {
+  justify-content: center;
+  width: 550px;
+  background: transparent;
+  border: 0px;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 2em;
+  color: rgb(245, 138, 255);
+  text-align: right;
+}
+
+
+#SearchIcon {
+  color: rgb(245, 138, 255);
+}
+
