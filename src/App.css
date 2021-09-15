@@ -60,14 +60,14 @@
 
 .playerWrapper {
   position: relative;
-  max-width: 441px;
-  height: 200px;
+  max-width: 411px;
+  height: 231px;
   border: 1px solid #61dafb;
+  left: 25px;
+  top: 10px;
 }
 
 .reactPlayer {
-  position: absolute;
-  top: 0;
   left: 25px;
 }
 

@@ -9,6 +9,7 @@ function UserBar () {
                     <ReactPlayer
                         className='reactPlayer'
                         url='https://www.youtube.com/watch?v=Pn-6eOxnEMI'
+                        height='100%'
                         width='max-width'
                     />
                 </div>
